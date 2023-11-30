@@ -1,0 +1,62 @@
+.hero-section{
+	width: 100%;
+	height: 100vh;/*full webpage dimensions fit with hero-section*/
+	display: flex;
+	justify-content: center;/*horizontal alignment*/
+	align-items: center;/*vertical alignment*/
+}
+
+.bg-img{
+	width: 100%;/*so that final bg showed in loading page matches with bg-img*/
+	height: 100vh;
+	position: absolute; /*very essential to fill up the webpage background*/
+	top: 0;
+	left: 0;
+	z-index: -10;
+	/*so that text lies over bg img*/
+}
+
+.herosection-content{
+	color: rgba(240, 248, 255, 0.866);
+	display: flex;
+	flex-direction: column;/*so that the containers will be alligned in vertical direction*/
+	align-items: center;/*horizontal alignment because we changed flex direction*/
+}
+
+.herosection-content h1{
+	font-size: 2.5rem;/*relatively increasing the size*/
+	cursor: default;
+}
+.subheading{
+	cursor: default;
+}
+
+.hero-btns{
+	display: flex;
+	padding: 10px;/*move the container away from text*/
+}
+
+.btn{
+	margin: 0 10px;
+	color: white;
+	border-color: white;
+	border-style: groove;
+	background-color: blue;
+	border-radius: 5px;
+}
+
+.btn:hover{
+	cursor: pointer;
+	color: gold;
+	border-color: gold;
+}
+
+.btn-content{
+	padding: 5px 5px;
+	text-decoration: none;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+

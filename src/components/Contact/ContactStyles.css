@@ -1,0 +1,47 @@
+.contact{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;/*horizontal alignment*/
+	align-items: center;/*vertical alignment*/
+	/*background-image: url('../../assets//background3.jpg');
+	/*alternative way to set background rather than using img tag and setting z-indexes*/
+	/*background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+
+.contact img{
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	z-index: -5;
+}
+
+.contact-form{
+	display: flex;
+	width: 300px;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contact-form label{
+	color: rgba(240, 248, 255, 0.866);
+}
+
+.contact-form input{
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px 0;/*(top-btm) (lef-rig)*/
+}
+
+.contact-form textarea{
+	border-radius: 5px;
+	height: 15vh;
+	padding: 5px;
+	margin: 5px 0;/*(top-btm) (lef-rig)*/
+}
+
+.form-submit:hover{
+	cursor: pointer;
+}

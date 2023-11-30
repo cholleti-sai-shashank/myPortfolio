@@ -1,0 +1,53 @@
+.footer-container{
+	width: 100%;
+	height: 60vh;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.bgimg2{
+	width: 100%;
+	height: 60vh;
+	position: absolute;/*must so that it completely fills container, if it's relative, it just covers some part*/
+	z-index: -5;/*so that all text should be displayed over bgImg*/
+}
+
+.footer{
+	color:rgba(240, 248, 255, 0.866);
+	width: 100%;/*so that the two containers were seperated to outer container*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-left-line{
+	display: flex;
+	padding: 10px 20px;/*top btm, left right*/
+}
+
+.footer-left-line p{
+	padding-left: 10px;
+}
+
+.footer-right{
+	padding-right: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-right-content{
+	display: flex;
+	justify-content: center;
+	padding: 10px 30px;/*top btm, left right*/
+	color:rgba(240, 248, 255, 0.866);
+	text-decoration: none;
+}
+
+.photo{
+
+	width: 50%;
+}

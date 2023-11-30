@@ -1,0 +1,38 @@
+nav{
+	padding-top: 0vh;
+	display: flex; /*automatic flex direction in horizontal*/
+	justify-content: space-between;/*the automatic space btw containers is generated*/
+	align-items: center;/*vertical alignment only works on flex*/
+	height: 10vh; /*height of nav*/
+	width: 100%; /*full width of web page*/
+	background-color: rgba(0, 0, 0, 0.3);/*since nav is over bg-img because of z-index*/
+	position: fixed;/*So it won't go down on scroll*/
+	z-index: +5;/*to ensure it's over the background*/
+}
+.logo{
+	display: flex; /*automatic flex in horizontal direction*/
+	align-items: center; /*vertical alignment*/
+	color: rgba(240, 248, 255, 0.866);
+	/*adjusting the position of logo*/
+}
+.logo img{
+	height: 7vh;
+	cursor: default;
+}
+.logo p{
+	cursor: default;
+}
+.links{
+	display: flex;
+	align-items: center;
+}
+.link{
+	color: rgba(240, 248, 255, 0.866);
+	text-decoration: none; /*so that underline part is removed*/
+	padding: 1.5rem;
+}
+.link:hover{
+	color: gold;
+}
+
+
